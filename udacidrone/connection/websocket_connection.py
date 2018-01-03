@@ -1,3 +1,7 @@
+"""
+This websocket connection still uses the Mavlink encoding/decoding format. However,
+instead of TCP/UDP, websockets are used to relay messages.
+"""
 import os
 import queue
 import threading
